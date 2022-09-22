@@ -1,0 +1,185 @@
+/* Cores do tempa de fundo */
+
+body {
+  font-family: "verdana";
+}
+
+.wrapper {
+  background: #3da1d1;
+  border: 1px solid #999;
+  padding: 0 1em 24px;
+  width: 50%;
+  margin: 2em auto;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.tableContainer {
+  width: 100%;
+  border: 1px solid rgb(127, 127, 127);
+  max-height: 520px;
+  overflow: auto;
+}
+
+th {
+  position: sticky;
+  top: 4px;
+  transform: translateY(-2px);
+  background-color: rgb(248, 245, 245) !important;
+}
+
+tr,
+td {
+  border: 1px solid rgb(191, 191, 191);
+  border-collapse: collapse;
+}
+
+tr:nth-of-type(odd) td:nth-of-type(odd),
+tr:nth-of-type(even) td:nth-of-type(even) {
+  background-color: rgb(248, 245, 245);
+}
+
+thead {
+  background-color: rgb(248, 245, 245);
+}
+
+header {
+  background-color: #427AAF !important;
+}
+
+/* Tamanho da imagem */
+
+@media (min-width: 1400px) {
+  h1 {
+    text-align: center !important;
+    color: white !important;
+  }
+
+  h6,h3,
+  button {
+    text-align: center;
+    font-size: 120% !important;
+    color: white;
+
+
+  }
+  .especifico {
+    width: 150px;
+    height: 100px;
+  }
+}
+
+/* Abaixo de  1399px*/
+
+@media screen and (max-width: 1399px) and (min-width: 768px) {
+  h1 {
+    text-align: center !important;
+    color: white !important;
+  }
+
+  h6,h3,
+  button {
+    text-align: center;
+    font-size: 100% !important;
+    color: white;
+  }
+
+  .especifico {
+    width: 95px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 479px) {
+  h1 {
+    text-align: center !important;
+    color: white !important;
+  }
+
+  h6,h3,
+  button {
+    text-align: center;
+    font-size: 80% !important;
+    color: white;
+  }
+
+  .especifico {
+    width: 120px;
+    width: 100px;
+    display: block !important;
+    margin: 0px auto !important;
+  }
+
+  .especifico1 {
+    display: block !important;
+    margin: 0px auto !important;
+  }
+
+
+}
+
+@media screen and (max-width: 478px) and (min-width: 410px) {
+  h1 {
+    text-align: center !important;
+    color: white !important;
+  }
+
+  h6,h3,
+  button {
+    text-align: center !important;
+    font-size: 100% !important;
+    color: white;
+
+  }
+
+.especifico{
+   width: 85px;
+   height: 65px;
+    display: block !important;
+    margin: 20px auto !important;
+  }
+  .especifico1 {
+    display: block !important;
+    margin: 0px auto !important;
+  }
+}
+
+@media screen and (max-width: 409px) {
+  h1 {
+    text-align: center !important;
+    color: white !important;
+  }
+
+  h6,h3,
+  button {
+    text-align: center;
+    font-size: 100% !important;
+    color: white;
+  }
+
+  .especifico {
+    width: 70px;
+    height: 65px;
+    display: block !important;
+    margin: 20px auto !important;
+  }
+  .especifico1 {
+    display: block !important;
+    margin: 0px auto !important;
+  }
+}
+
+.pass {
+  width: 150px;
+  padding-right: 20px;
+}
+
+.olho {
+  cursor: pointer;
+  left: 160px;
+  position: absolute;
+  width: 20px;
+}

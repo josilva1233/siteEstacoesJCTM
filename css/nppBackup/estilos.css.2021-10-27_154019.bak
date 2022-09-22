@@ -1,0 +1,34 @@
+body {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.form-signin {
+  max-width: 350px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.datatable-content{
+	overflow: auto;
+}
+
+.masthead{
+	height: 150px;
+	margin: auto;
+	background-image: url("../img/topo_Visualizador.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.masthead .container{
+	 padding-top: 80px;
+	 padding-left: 20px;
+}
+
+.masthead-text{
+	color: threedhighlight;
+ 	font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+	/* font-weight: 200; */
+	/*text-shadow: 0.1em 0.1em 0.05em #333;*/
+}
